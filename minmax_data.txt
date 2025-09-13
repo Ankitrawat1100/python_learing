@@ -1,0 +1,3 @@
+List of numbers: ['2', '3', '4']
+Maximum in list: 4
+Minimum in list: 2

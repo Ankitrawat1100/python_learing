@@ -1,0 +1,10 @@
+2025-09-13 09:00:40,387 [INFO] BEGIN (implicit)
+2025-09-13 09:00:40,390 [INFO] INSERT INTO flights (id, flight_number, flight_model, airline_name, seats, price, source, destination) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+2025-09-13 09:00:40,391 [INFO] [generated in 0.00037s] (101, '1001', '221', 'Air India', 100, 8000.0, 'delhi', 'mumbai')
+2025-09-13 09:00:40,393 [INFO] COMMIT
+2025-09-13 09:00:40,395 [INFO] Flight created.
+2025-09-13 09:00:43,479 [INFO] BEGIN (implicit)
+2025-09-13 09:00:43,482 [INFO] SELECT flights.id AS flights_id, flights.flight_number AS flights_flight_number, flights.flight_model AS flights_flight_model, flights.airline_name AS flights_airline_name, flights.seats AS flights_seats, flights.price AS flights_price, flights.source AS flights_source, flights.destination AS flights_destination 
+FROM flights
+2025-09-13 09:00:43,482 [INFO] [generated in 0.00032s] ()
+2025-09-13 09:00:43,483 [INFO] read all flights.
